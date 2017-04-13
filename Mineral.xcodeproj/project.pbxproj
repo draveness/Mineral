@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7291CC9F1E9FB7AC0033BAEC /* Mineral.h in Headers */ = {isa = PBXBuildFile; fileRef = 7291CC9D1E9FB7AC0033BAEC /* Mineral.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7291CCA61E9FB7B30033BAEC /* Mineral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7291CCA51E9FB7B30033BAEC /* Mineral.swift */; };
+		7291CCAA1E9FB8560033BAEC /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7291CCA91E9FB8560033BAEC /* Node.swift */; };
+		7291CCAC1E9FB8870033BAEC /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7291CCAB1E9FB8870033BAEC /* Frame.swift */; };
+		7291CCAE1E9FBCD90033BAEC /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7291CCAD1E9FBCD90033BAEC /* Container.swift */; };
+		7291CCB61E9FD3B10033BAEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7291CCB51E9FD3B10033BAEC /* AppDelegate.swift */; };
+		7291CCB81E9FD3B10033BAEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7291CCB71E9FD3B10033BAEC /* ViewController.swift */; };
+		7291CCBB1E9FD3B10033BAEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7291CCB91E9FD3B10033BAEC /* Main.storyboard */; };
+		7291CCBD1E9FD3B10033BAEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7291CCBC1E9FD3B10033BAEC /* Assets.xcassets */; };
+		7291CCC01E9FD3B10033BAEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7291CCBE1E9FD3B10033BAEC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7291CCC51E9FD5790033BAEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7291CC911E9FB7AC0033BAEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7291CC991E9FB7AC0033BAEC;
+			remoteInfo = Mineral;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7291CC9A1E9FB7AC0033BAEC /* Mineral.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mineral.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7291CC9D1E9FB7AC0033BAEC /* Mineral.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mineral.h; sourceTree = "<group>"; };
+		7291CC9E1E9FB7AC0033BAEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7291CCA51E9FB7B30033BAEC /* Mineral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mineral.swift; sourceTree = "<group>"; };
+		7291CCA91E9FB8560033BAEC /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		7291CCAB1E9FB8870033BAEC /* Frame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Frame.swift; sourceTree = "<group>"; };
+		7291CCAD1E9FBCD90033BAEC /* Container.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
+		7291CCB31E9FD3B10033BAEC /* Mineral Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mineral Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7291CCB51E9FD3B10033BAEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7291CCB71E9FD3B10033BAEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7291CCBA1E9FD3B10033BAEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7291CCBC1E9FD3B10033BAEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7291CCBF1E9FD3B10033BAEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7291CCC11E9FD3B10033BAEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7291CC961E9FB7AC0033BAEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7291CCB01E9FD3B10033BAEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7291CC901E9FB7AC0033BAEC = {
+			isa = PBXGroup;
+			children = (
+				7291CC9C1E9FB7AC0033BAEC /* Mineral */,
+				7291CCB41E9FD3B10033BAEC /* Mineral Demo */,
+				7291CC9B1E9FB7AC0033BAEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7291CC9B1E9FB7AC0033BAEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7291CC9A1E9FB7AC0033BAEC /* Mineral.framework */,
+				7291CCB31E9FD3B10033BAEC /* Mineral Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7291CC9C1E9FB7AC0033BAEC /* Mineral */ = {
+			isa = PBXGroup;
+			children = (
+				7291CC9D1E9FB7AC0033BAEC /* Mineral.h */,
+				7291CC9E1E9FB7AC0033BAEC /* Info.plist */,
+				7291CCA51E9FB7B30033BAEC /* Mineral.swift */,
+				7291CCA91E9FB8560033BAEC /* Node.swift */,
+				7291CCAB1E9FB8870033BAEC /* Frame.swift */,
+				7291CCAD1E9FBCD90033BAEC /* Container.swift */,
+			);
+			path = Mineral;
+			sourceTree = "<group>";
+		};
+		7291CCB41E9FD3B10033BAEC /* Mineral Demo */ = {
+			isa = PBXGroup;
+			children = (
+				7291CCB51E9FD3B10033BAEC /* AppDelegate.swift */,
+				7291CCB71E9FD3B10033BAEC /* ViewController.swift */,
+				7291CCB91E9FD3B10033BAEC /* Main.storyboard */,
+				7291CCBC1E9FD3B10033BAEC /* Assets.xcassets */,
+				7291CCBE1E9FD3B10033BAEC /* LaunchScreen.storyboard */,
+				7291CCC11E9FD3B10033BAEC /* Info.plist */,
+			);
+			path = "Mineral Demo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7291CC971E9FB7AC0033BAEC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7291CC9F1E9FB7AC0033BAEC /* Mineral.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7291CC991E9FB7AC0033BAEC /* Mineral */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7291CCA21E9FB7AC0033BAEC /* Build configuration list for PBXNativeTarget "Mineral" */;
+			buildPhases = (
+				7291CC951E9FB7AC0033BAEC /* Sources */,
+				7291CC961E9FB7AC0033BAEC /* Frameworks */,
+				7291CC971E9FB7AC0033BAEC /* Headers */,
+				7291CC981E9FB7AC0033BAEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mineral;
+			productName = Mineral;
+			productReference = 7291CC9A1E9FB7AC0033BAEC /* Mineral.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7291CCB21E9FD3B10033BAEC /* Mineral Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7291CCC21E9FD3B10033BAEC /* Build configuration list for PBXNativeTarget "Mineral Demo" */;
+			buildPhases = (
+				7291CCAF1E9FD3B10033BAEC /* Sources */,
+				7291CCB01E9FD3B10033BAEC /* Frameworks */,
+				7291CCB11E9FD3B10033BAEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7291CCC61E9FD5790033BAEC /* PBXTargetDependency */,
+			);
+			name = "Mineral Demo";
+			productName = "Mineral Demo";
+			productReference = 7291CCB31E9FD3B10033BAEC /* Mineral Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7291CC911E9FB7AC0033BAEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = draveness;
+				TargetAttributes = {
+					7291CC991E9FB7AC0033BAEC = {
+						CreatedOnToolsVersion = 8.3.1;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					7291CCB21E9FD3B10033BAEC = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7291CC941E9FB7AC0033BAEC /* Build configuration list for PBXProject "Mineral" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7291CC901E9FB7AC0033BAEC;
+			productRefGroup = 7291CC9B1E9FB7AC0033BAEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7291CC991E9FB7AC0033BAEC /* Mineral */,
+				7291CCB21E9FD3B10033BAEC /* Mineral Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7291CC981E9FB7AC0033BAEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7291CCB11E9FD3B10033BAEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7291CCC01E9FD3B10033BAEC /* LaunchScreen.storyboard in Resources */,
+				7291CCBD1E9FD3B10033BAEC /* Assets.xcassets in Resources */,
+				7291CCBB1E9FD3B10033BAEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7291CC951E9FB7AC0033BAEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7291CCA61E9FB7B30033BAEC /* Mineral.swift in Sources */,
+				7291CCAE1E9FBCD90033BAEC /* Container.swift in Sources */,
+				7291CCAC1E9FB8870033BAEC /* Frame.swift in Sources */,
+				7291CCAA1E9FB8560033BAEC /* Node.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7291CCAF1E9FD3B10033BAEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7291CCB81E9FD3B10033BAEC /* ViewController.swift in Sources */,
+				7291CCB61E9FD3B10033BAEC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7291CCC61E9FD5790033BAEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7291CC991E9FB7AC0033BAEC /* Mineral */;
+			targetProxy = 7291CCC51E9FD5790033BAEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7291CCB91E9FD3B10033BAEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7291CCBA1E9FD3B10033BAEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7291CCBE1E9FD3B10033BAEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7291CCBF1E9FD3B10033BAEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7291CCA01E9FB7AC0033BAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7291CCA11E9FB7AC0033BAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7291CCA31E9FB7AC0033BAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Mineral/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.draveness.Mineral;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7291CCA41E9FB7AC0033BAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Mineral/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.draveness.Mineral;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7291CCC31E9FD3B10033BAEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Mineral Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.draveness.Mineral-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7291CCC41E9FD3B10033BAEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Mineral Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.draveness.Mineral-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7291CC941E9FB7AC0033BAEC /* Build configuration list for PBXProject "Mineral" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7291CCA01E9FB7AC0033BAEC /* Debug */,
+				7291CCA11E9FB7AC0033BAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7291CCA21E9FB7AC0033BAEC /* Build configuration list for PBXNativeTarget "Mineral" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7291CCA31E9FB7AC0033BAEC /* Debug */,
+				7291CCA41E9FB7AC0033BAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7291CCC21E9FD3B10033BAEC /* Build configuration list for PBXNativeTarget "Mineral Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7291CCC31E9FD3B10033BAEC /* Debug */,
+				7291CCC41E9FD3B10033BAEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7291CC911E9FB7AC0033BAEC /* Project object */;
+}
