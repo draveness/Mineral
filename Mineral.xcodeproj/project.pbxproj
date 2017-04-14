@@ -17,6 +17,8 @@
 		7291CCBB1E9FD3B10033BAEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7291CCB91E9FD3B10033BAEC /* Main.storyboard */; };
 		7291CCBD1E9FD3B10033BAEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7291CCBC1E9FD3B10033BAEC /* Assets.xcassets */; };
 		7291CCC01E9FD3B10033BAEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7291CCBE1E9FD3B10033BAEC /* LaunchScreen.storyboard */; };
+		7291CCC81EA063DD0033BAEC /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7291CCC71EA063DD0033BAEC /* Builder.swift */; };
+		7291CCCA1EA064320033BAEC /* Buildable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7291CCC91EA064320033BAEC /* Buildable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		7291CCBC1E9FD3B10033BAEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7291CCBF1E9FD3B10033BAEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7291CCC11E9FD3B10033BAEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7291CCC71EA063DD0033BAEC /* Builder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
+		7291CCC91EA064320033BAEC /* Buildable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Buildable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,8 @@
 				7291CCA91E9FB8560033BAEC /* Node.swift */,
 				7291CCAB1E9FB8870033BAEC /* Frame.swift */,
 				7291CCAD1E9FBCD90033BAEC /* Container.swift */,
+				7291CCC71EA063DD0033BAEC /* Builder.swift */,
+				7291CCC91EA064320033BAEC /* Buildable.swift */,
 			);
 			path = Mineral;
 			sourceTree = "<group>";
@@ -226,7 +232,9 @@
 				7291CCA61E9FB7B30033BAEC /* Mineral.swift in Sources */,
 				7291CCAE1E9FBCD90033BAEC /* Container.swift in Sources */,
 				7291CCAC1E9FB8870033BAEC /* Frame.swift in Sources */,
+				7291CCCA1EA064320033BAEC /* Buildable.swift in Sources */,
 				7291CCAA1E9FB8560033BAEC /* Node.swift in Sources */,
+				7291CCC81EA063DD0033BAEC /* Builder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

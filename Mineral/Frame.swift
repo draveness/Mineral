@@ -9,13 +9,14 @@
 import Foundation
 
 public class Frame: Node, Container {
-    public static func build(closure: (Frame) -> Void) -> Frame {
-        let frame = Frame()
-        closure(frame)
-        return frame
-    }
+    typealias Element = Frame
+//    public static func build<T>(closure: (Frame) -> (T) -> Void) -> (T) -> Void {
+//        let frame = Frame()
+//        return closure(frame)
+//    }
     
-    @discardableResult public func build(_ node: Node) -> Relation<Frame> {
+    @discardableResult public func build(closure: () -> Node) -> Relation<Frame> {
+        let node = closure()
         view.addSubview(node.view)
         return Relation<Frame>(container: self, node: node)
     }

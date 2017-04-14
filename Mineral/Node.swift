@@ -8,29 +8,32 @@
 
 import Foundation
 
-public class Node {
-    public let view: UIView = UIView()
-    
-    public static var make: Node {
-        return Node()
+public class Node: Buildable {
+    public typealias Element = Node
+    public required init() {}
+    public func bind<VM>(viewModel: VM) -> Element {
+        return self
     }
     
-    @discardableResult public func color(_ color: UIColor) -> Node {
+    public let view: UIView = UIView()
+    public let parent: Node? = nil
+    
+    @discardableResult public func color(_ color: UIColor) -> Element {
         view.backgroundColor = color
         return self
     }
     
-    @discardableResult public func size(_ size: CGSize) -> Node {
+    @discardableResult public func size(_ size: CGSize) -> Element {
         view.size = size
         return self
     }
     
-    @discardableResult public func size(_ width: CGFloat, _ height: CGFloat) -> Node {
+    @discardableResult public func size(_ width: CGFloat, _ height: CGFloat) -> Element {
         view.size = CGSize(width: width, height: height)
         return self
     }
     
-    @discardableResult public func size(_ size: CGFloat) -> Node {
+    @discardableResult public func size(_ size: CGFloat) -> Element {
         view.size = CGSize(width: size, height: size)
         return self
     }

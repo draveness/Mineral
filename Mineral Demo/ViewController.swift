@@ -13,10 +13,19 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let frame = Frame.build {
-            $0.build(Node.make.color(UIColor.white).size(50)).origin(10)
-        }.color(UIColor.lightGray).size(self.view.frame.size)
+        let frame = Builder<Frame>.build {
+            $0.color(UIColor.lightGray).size(self.view.frame.size)
+            $0.build {
+                Builder<Node>.build { $0.color(UIColor.white).size(50) }
+                }.origin(10)
+            $0.build {
+                Builder<Node>.build { $0.color(UIColor.red).size(50) }
+                }.center(200, 300)
+        }
         view.addSubview(frame.view)
     }
 }
 
+class ViewModel {
+    let globalColor = UIColor.lightGray
+}
