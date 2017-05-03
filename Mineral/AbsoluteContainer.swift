@@ -8,17 +8,17 @@
 
 import Foundation
 
-public class Frame: Node, Container {
-    typealias Element = Frame
-//    public static func build<T>(closure: (Frame) -> (T) -> Void) -> (T) -> Void {
-//        let frame = Frame()
+public class AbsoluteContainer: Node, Container {
+    typealias Element = AbsoluteContainer
+//    public static func build<T>(closure: (AbsoluteContainer) -> (T) -> Void) -> (T) -> Void {
+//        let frame = AbsoluteContainer()
 //        return closure(frame)
 //    }
     
-    @discardableResult public func build(closure: () -> Node) -> Relation<Frame> {
+    @discardableResult public func build(closure: () -> Node) -> Relation<AbsoluteContainer> {
         let node = closure()
         view.addSubview(node.view)
-        return Relation<Frame>(container: self, node: node)
+        return Relation<AbsoluteContainer>(container: self, node: node)
     }
 }
 
@@ -32,7 +32,7 @@ public class Relation<Container> {
     }
 }
 
-extension Relation where Container: Frame {
+extension Relation where Container: AbsoluteContainer {
     @discardableResult public func origin(_ origin: CGPoint) -> Relation {
         node.view.origin = origin
         return self

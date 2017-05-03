@@ -10,7 +10,7 @@
 		7291CC9F1E9FB7AC0033BAEC /* Mineral.h in Headers */ = {isa = PBXBuildFile; fileRef = 7291CC9D1E9FB7AC0033BAEC /* Mineral.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7291CCA61E9FB7B30033BAEC /* Mineral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7291CCA51E9FB7B30033BAEC /* Mineral.swift */; };
 		7291CCAA1E9FB8560033BAEC /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7291CCA91E9FB8560033BAEC /* Node.swift */; };
-		7291CCAC1E9FB8870033BAEC /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7291CCAB1E9FB8870033BAEC /* Frame.swift */; };
+		7291CCAC1E9FB8870033BAEC /* AbsoluteContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7291CCAB1E9FB8870033BAEC /* AbsoluteContainer.swift */; };
 		7291CCAE1E9FBCD90033BAEC /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7291CCAD1E9FBCD90033BAEC /* Container.swift */; };
 		7291CCB61E9FD3B10033BAEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7291CCB51E9FD3B10033BAEC /* AppDelegate.swift */; };
 		7291CCB81E9FD3B10033BAEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7291CCB71E9FD3B10033BAEC /* ViewController.swift */; };
@@ -37,7 +37,7 @@
 		7291CC9E1E9FB7AC0033BAEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7291CCA51E9FB7B30033BAEC /* Mineral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mineral.swift; sourceTree = "<group>"; };
 		7291CCA91E9FB8560033BAEC /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
-		7291CCAB1E9FB8870033BAEC /* Frame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Frame.swift; sourceTree = "<group>"; };
+		7291CCAB1E9FB8870033BAEC /* AbsoluteContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbsoluteContainer.swift; sourceTree = "<group>"; };
 		7291CCAD1E9FBCD90033BAEC /* Container.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
 		7291CCB31E9FD3B10033BAEC /* Mineral Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mineral Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7291CCB51E9FD3B10033BAEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -93,7 +93,7 @@
 				7291CC9E1E9FB7AC0033BAEC /* Info.plist */,
 				7291CCA51E9FB7B30033BAEC /* Mineral.swift */,
 				7291CCA91E9FB8560033BAEC /* Node.swift */,
-				7291CCAB1E9FB8870033BAEC /* Frame.swift */,
+				7291CCAB1E9FB8870033BAEC /* AbsoluteContainer.swift */,
 				7291CCAD1E9FBCD90033BAEC /* Container.swift */,
 				7291CCC71EA063DD0033BAEC /* Builder.swift */,
 				7291CCC91EA064320033BAEC /* Buildable.swift */,
@@ -231,7 +231,7 @@
 			files = (
 				7291CCA61E9FB7B30033BAEC /* Mineral.swift in Sources */,
 				7291CCAE1E9FBCD90033BAEC /* Container.swift in Sources */,
-				7291CCAC1E9FB8870033BAEC /* Frame.swift in Sources */,
+				7291CCAC1E9FB8870033BAEC /* AbsoluteContainer.swift in Sources */,
 				7291CCCA1EA064320033BAEC /* Buildable.swift in Sources */,
 				7291CCAA1E9FB8560033BAEC /* Node.swift in Sources */,
 				7291CCC81EA063DD0033BAEC /* Builder.swift in Sources */,
@@ -460,6 +460,7 @@
 				7291CCA41E9FB7AC0033BAEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7291CCC21E9FD3B10033BAEC /* Build configuration list for PBXNativeTarget "Mineral Demo" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +469,7 @@
 				7291CCC41E9FD3B10033BAEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
