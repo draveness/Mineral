@@ -9,12 +9,10 @@
 import Foundation
 
 public class AbsoluteContainer: Node, Container {
-    typealias Element = AbsoluteContainer
-//    public static func build<T>(closure: (AbsoluteContainer) -> (T) -> Void) -> (T) -> Void {
-//        let frame = AbsoluteContainer()
-//        return closure(frame)
-//    }
-    
+    public override func bind<VM>(viewModel: VM) -> AbsoluteContainer {
+        return self
+    }
+
     @discardableResult public func build(closure: () -> Node) -> Relation<AbsoluteContainer> {
         let node = closure()
         view.addSubview(node.view)
@@ -32,7 +30,7 @@ public class Relation<Container> {
     }
 }
 
-extension Relation where Container: AbsoluteContainer {
+public extension Relation where Container == AbsoluteContainer {
     @discardableResult public func origin(_ origin: CGPoint) -> Relation {
         node.view.origin = origin
         return self

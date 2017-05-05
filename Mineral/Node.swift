@@ -9,100 +9,38 @@
 import Foundation
 
 public class Node: Buildable {
-    public typealias Element = Node
+//    public typealias Element = Node
+
     public required init() {}
-    public func bind<VM>(viewModel: VM) -> Element {
+    public func bind<VM>(viewModel: VM) -> Node {
         return self
     }
     
     public let view: UIView = UIView()
     public let parent: Node? = nil
     
-    @discardableResult public func color(_ color: UIColor) -> Element {
+    @discardableResult public func color(_ color: UIColor) -> Self {
         view.backgroundColor = color
         return self
     }
     
-    @discardableResult public func size(_ size: CGSize) -> Element {
+    @discardableResult public func size(_ size: CGSize) -> Self {
         view.size = size
         return self
     }
     
-    @discardableResult public func size(_ width: CGFloat, _ height: CGFloat) -> Element {
+    @discardableResult public func size(_ width: CGFloat, _ height: CGFloat) -> Self {
         view.size = CGSize(width: width, height: height)
         return self
     }
     
-    @discardableResult public func size(_ size: CGFloat) -> Element {
+    @discardableResult public func size(_ size: CGFloat) -> Self {
         view.size = CGSize(width: size, height: size)
         return self
     }
+
+    @discardableResult public func attachTo<T: Container>(_ container: T) -> Relation<T.RelationType> {
+        return container.build { self }
+    }
 }
 
-extension UIView {
-    var size: CGSize {
-        get {
-            return self.frame.size
-        }
-        set {
-            var rect = self.frame
-            rect.size = newValue
-            self.frame = rect
-        }
-    }
-    
-    var origin: CGPoint {
-        get {
-            return self.frame.origin
-        }
-        set {
-            var rect = self.frame
-            rect.origin = newValue
-            self.frame = rect
-        }
-    }
-    
-    var x: CGFloat {
-        get {
-            return self.frame.origin.x
-        }
-        set {
-            var rect = self.frame
-            rect.origin.x = newValue
-            self.frame = rect
-        }
-    }
-    
-    var y: CGFloat {
-        get {
-            return self.frame.origin.y
-        }
-        set {
-            var rect = self.frame
-            rect.origin.y = newValue
-            self.frame = rect
-        }
-    }
-    
-    var centerX: CGFloat {
-        get {
-            return self.center.x
-        }
-        set {
-            var center = self.center
-            center.x = newValue
-            self.center = center
-        }
-    }
-    
-    var centerY: CGFloat {
-        get {
-            return self.center.y
-        }
-        set {
-            var center = self.center
-            center.y = newValue
-            self.center = center
-        }
-    }
-}

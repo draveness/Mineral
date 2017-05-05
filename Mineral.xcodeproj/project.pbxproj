@@ -19,6 +19,7 @@
 		7291CCC01E9FD3B10033BAEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7291CCBE1E9FD3B10033BAEC /* LaunchScreen.storyboard */; };
 		7291CCC81EA063DD0033BAEC /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7291CCC71EA063DD0033BAEC /* Builder.swift */; };
 		7291CCCA1EA064320033BAEC /* Buildable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7291CCC91EA064320033BAEC /* Buildable.swift */; };
+		72FF89461EBC6CBA00022B33 /* UIView+Measure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF89451EBC6CBA00022B33 /* UIView+Measure.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		7291CCC11E9FD3B10033BAEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7291CCC71EA063DD0033BAEC /* Builder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
 		7291CCC91EA064320033BAEC /* Buildable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Buildable.swift; sourceTree = "<group>"; };
+		72FF89451EBC6CBA00022B33 /* UIView+Measure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Measure.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				7291CCAD1E9FBCD90033BAEC /* Container.swift */,
 				7291CCC71EA063DD0033BAEC /* Builder.swift */,
 				7291CCC91EA064320033BAEC /* Buildable.swift */,
+				72FF89451EBC6CBA00022B33 /* UIView+Measure.swift */,
 			);
 			path = Mineral;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 				7291CCAE1E9FBCD90033BAEC /* Container.swift in Sources */,
 				7291CCAC1E9FB8870033BAEC /* AbsoluteContainer.swift in Sources */,
 				7291CCCA1EA064320033BAEC /* Buildable.swift in Sources */,
+				72FF89461EBC6CBA00022B33 /* UIView+Measure.swift in Sources */,
 				7291CCAA1E9FB8560033BAEC /* Node.swift in Sources */,
 				7291CCC81EA063DD0033BAEC /* Builder.swift in Sources */,
 			);

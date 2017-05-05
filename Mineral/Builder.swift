@@ -14,4 +14,8 @@ public class Builder<T: Buildable> {
         closure(result)
         return result
     }
+
+    public static var build: T {
+        return T()
+    }
 }
