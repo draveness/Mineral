@@ -1,0 +1,24 @@
+PODS:
+  - RbSwift (0.4.0)
+  - SnapKit (3.2.0)
+
+DEPENDENCIES:
+  - RbSwift
+  - SnapKit (from `git@github.com:Draveness/SnapKit.git`)
+
+EXTERNAL SOURCES:
+  SnapKit:
+    :git: git@github.com:Draveness/SnapKit.git
+
+CHECKOUT OPTIONS:
+  SnapKit:
+    :commit: 4540d536b74c67fffb0e7cb6686f60afa167ce6d
+    :git: git@github.com:Draveness/SnapKit.git
+
+SPEC CHECKSUMS:
+  RbSwift: 3581b748954330aed97863c0aa04ab17fa0d4b6d
+  SnapKit: c71c530b73cedd2a8b998098687001baff265086
+
+PODFILE CHECKSUM: 45830483212f44df7d662aeef05a492eee402a82
+
+COCOAPODS: 1.2.1

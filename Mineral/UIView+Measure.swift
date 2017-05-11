@@ -20,6 +20,28 @@ extension UIView {
         }
     }
 
+    var width: CGFloat {
+        get {
+            return self.size.width
+        }
+        set {
+            var size = self.size
+            size.width = newValue
+            self.size = size
+        }
+    }
+
+    var height: CGFloat {
+        get {
+            return self.size.height
+        }
+        set {
+            var size = self.size
+            size.height = newValue
+            self.size = size
+        }
+    }
+
     var origin: CGPoint {
         get {
             return self.frame.origin

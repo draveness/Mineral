@@ -19,7 +19,13 @@
 		7291CCC01E9FD3B10033BAEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7291CCBE1E9FD3B10033BAEC /* LaunchScreen.storyboard */; };
 		7291CCC81EA063DD0033BAEC /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7291CCC71EA063DD0033BAEC /* Builder.swift */; };
 		7291CCCA1EA064320033BAEC /* Buildable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7291CCC91EA064320033BAEC /* Buildable.swift */; };
+		72F480EF1EC4016E009A7EAA /* RelativeContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F480EE1EC4016E009A7EAA /* RelativeContainer.swift */; };
+		72F480F11EC401B0009A7EAA /* Relation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F480F01EC401B0009A7EAA /* Relation.swift */; };
+		72F480F51EC406A7009A7EAA /* RelativeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F480F41EC406A7009A7EAA /* RelativeViewController.swift */; };
+		72F480F71EC406AF009A7EAA /* AbsoluteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F480F61EC406AF009A7EAA /* AbsoluteViewController.swift */; };
 		72FF89461EBC6CBA00022B33 /* UIView+Measure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF89451EBC6CBA00022B33 /* UIView+Measure.swift */; };
+		8F5EF9B8F5F44C0495CBE2A1 /* Pods_Mineral.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B03662F853B342972D6450E4 /* Pods_Mineral.framework */; };
+		95A7E0642455689DFDBB9755 /* Pods_Mineral_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 196EC15A292F0845DADD0881 /* Pods_Mineral_Demo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		031F41C41229F1919EEA8DA1 /* Pods-Mineral.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mineral.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mineral/Pods-Mineral.debug.xcconfig"; sourceTree = "<group>"; };
+		196EC15A292F0845DADD0881 /* Pods_Mineral_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mineral_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B5125430F2EE97448431529 /* Pods-Mineral Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mineral Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mineral Demo/Pods-Mineral Demo.release.xcconfig"; sourceTree = "<group>"; };
 		7291CC9A1E9FB7AC0033BAEC /* Mineral.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mineral.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7291CC9D1E9FB7AC0033BAEC /* Mineral.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mineral.h; sourceTree = "<group>"; };
 		7291CC9E1E9FB7AC0033BAEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,7 +58,14 @@
 		7291CCC11E9FD3B10033BAEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7291CCC71EA063DD0033BAEC /* Builder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
 		7291CCC91EA064320033BAEC /* Buildable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Buildable.swift; sourceTree = "<group>"; };
+		72F480EE1EC4016E009A7EAA /* RelativeContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RelativeContainer.swift; sourceTree = "<group>"; };
+		72F480F01EC401B0009A7EAA /* Relation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Relation.swift; sourceTree = "<group>"; };
+		72F480F41EC406A7009A7EAA /* RelativeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RelativeViewController.swift; sourceTree = "<group>"; };
+		72F480F61EC406AF009A7EAA /* AbsoluteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbsoluteViewController.swift; sourceTree = "<group>"; };
 		72FF89451EBC6CBA00022B33 /* UIView+Measure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Measure.swift"; sourceTree = "<group>"; };
+		9438A0F36E2377B8DDC02CD7 /* Pods-Mineral Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mineral Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mineral Demo/Pods-Mineral Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		AA6DEE59745A7CCEB1FBBB6A /* Pods-Mineral.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mineral.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mineral/Pods-Mineral.release.xcconfig"; sourceTree = "<group>"; };
+		B03662F853B342972D6450E4 /* Pods_Mineral.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mineral.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F5EF9B8F5F44C0495CBE2A1 /* Pods_Mineral.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95A7E0642455689DFDBB9755 /* Pods_Mineral_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +94,8 @@
 				7291CC9C1E9FB7AC0033BAEC /* Mineral */,
 				7291CCB41E9FD3B10033BAEC /* Mineral Demo */,
 				7291CC9B1E9FB7AC0033BAEC /* Products */,
+				D1F52FB150E362218A171B74 /* Pods */,
+				CB16DD9E3D14563F42C7BB97 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,15 +111,14 @@
 		7291CC9C1E9FB7AC0033BAEC /* Mineral */ = {
 			isa = PBXGroup;
 			children = (
+				72F480F31EC4033E009A7EAA /* Helper */,
+				72F480F21EC40263009A7EAA /* Container */,
 				7291CC9D1E9FB7AC0033BAEC /* Mineral.h */,
 				7291CC9E1E9FB7AC0033BAEC /* Info.plist */,
 				7291CCA51E9FB7B30033BAEC /* Mineral.swift */,
 				7291CCA91E9FB8560033BAEC /* Node.swift */,
-				7291CCAB1E9FB8870033BAEC /* AbsoluteContainer.swift */,
-				7291CCAD1E9FBCD90033BAEC /* Container.swift */,
 				7291CCC71EA063DD0033BAEC /* Builder.swift */,
 				7291CCC91EA064320033BAEC /* Buildable.swift */,
-				72FF89451EBC6CBA00022B33 /* UIView+Measure.swift */,
 			);
 			path = Mineral;
 			sourceTree = "<group>";
@@ -109,12 +128,53 @@
 			children = (
 				7291CCB51E9FD3B10033BAEC /* AppDelegate.swift */,
 				7291CCB71E9FD3B10033BAEC /* ViewController.swift */,
+				72F480F61EC406AF009A7EAA /* AbsoluteViewController.swift */,
+				72F480F41EC406A7009A7EAA /* RelativeViewController.swift */,
 				7291CCB91E9FD3B10033BAEC /* Main.storyboard */,
 				7291CCBC1E9FD3B10033BAEC /* Assets.xcassets */,
 				7291CCBE1E9FD3B10033BAEC /* LaunchScreen.storyboard */,
 				7291CCC11E9FD3B10033BAEC /* Info.plist */,
 			);
 			path = "Mineral Demo";
+			sourceTree = "<group>";
+		};
+		72F480F21EC40263009A7EAA /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				7291CCAB1E9FB8870033BAEC /* AbsoluteContainer.swift */,
+				72F480EE1EC4016E009A7EAA /* RelativeContainer.swift */,
+				7291CCAD1E9FBCD90033BAEC /* Container.swift */,
+				72F480F01EC401B0009A7EAA /* Relation.swift */,
+			);
+			name = Container;
+			sourceTree = "<group>";
+		};
+		72F480F31EC4033E009A7EAA /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				72FF89451EBC6CBA00022B33 /* UIView+Measure.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		CB16DD9E3D14563F42C7BB97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B03662F853B342972D6450E4 /* Pods_Mineral.framework */,
+				196EC15A292F0845DADD0881 /* Pods_Mineral_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1F52FB150E362218A171B74 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				031F41C41229F1919EEA8DA1 /* Pods-Mineral.debug.xcconfig */,
+				AA6DEE59745A7CCEB1FBBB6A /* Pods-Mineral.release.xcconfig */,
+				9438A0F36E2377B8DDC02CD7 /* Pods-Mineral Demo.debug.xcconfig */,
+				1B5125430F2EE97448431529 /* Pods-Mineral Demo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,10 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7291CCA21E9FB7AC0033BAEC /* Build configuration list for PBXNativeTarget "Mineral" */;
 			buildPhases = (
+				497C851A7D70B2756F2A4A1E /* [CP] Check Pods Manifest.lock */,
 				7291CC951E9FB7AC0033BAEC /* Sources */,
 				7291CC961E9FB7AC0033BAEC /* Frameworks */,
 				7291CC971E9FB7AC0033BAEC /* Headers */,
 				7291CC981E9FB7AC0033BAEC /* Resources */,
+				7AE54A98CA30803A35063E7A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -153,9 +215,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7291CCC21E9FD3B10033BAEC /* Build configuration list for PBXNativeTarget "Mineral Demo" */;
 			buildPhases = (
+				B60B8F07E8B74289798614BD /* [CP] Check Pods Manifest.lock */,
 				7291CCAF1E9FD3B10033BAEC /* Sources */,
 				7291CCB01E9FD3B10033BAEC /* Frameworks */,
 				7291CCB11E9FD3B10033BAEC /* Resources */,
+				F21625A5000CD1741BD76E90 /* [CP] Embed Pods Frameworks */,
+				AE014AA29ECD4566A5FD3A2C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -227,12 +292,92 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		497C851A7D70B2756F2A4A1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7AE54A98CA30803A35063E7A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mineral/Pods-Mineral-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE014AA29ECD4566A5FD3A2C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mineral Demo/Pods-Mineral Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B60B8F07E8B74289798614BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F21625A5000CD1741BD76E90 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mineral Demo/Pods-Mineral Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7291CC951E9FB7AC0033BAEC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7291CCA61E9FB7B30033BAEC /* Mineral.swift in Sources */,
+				72F480F11EC401B0009A7EAA /* Relation.swift in Sources */,
+				72F480EF1EC4016E009A7EAA /* RelativeContainer.swift in Sources */,
 				7291CCAE1E9FBCD90033BAEC /* Container.swift in Sources */,
 				7291CCAC1E9FB8870033BAEC /* AbsoluteContainer.swift in Sources */,
 				7291CCCA1EA064320033BAEC /* Buildable.swift in Sources */,
@@ -246,6 +391,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72F480F51EC406A7009A7EAA /* RelativeViewController.swift in Sources */,
+				72F480F71EC406AF009A7EAA /* AbsoluteViewController.swift in Sources */,
 				7291CCB81E9FD3B10033BAEC /* ViewController.swift in Sources */,
 				7291CCB61E9FD3B10033BAEC /* AppDelegate.swift in Sources */,
 			);
@@ -384,6 +531,7 @@
 		};
 		7291CCA31E9FB7AC0033BAEC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 031F41C41229F1919EEA8DA1 /* Pods-Mineral.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -404,6 +552,7 @@
 		};
 		7291CCA41E9FB7AC0033BAEC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA6DEE59745A7CCEB1FBBB6A /* Pods-Mineral.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -423,6 +572,7 @@
 		};
 		7291CCC31E9FD3B10033BAEC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9438A0F36E2377B8DDC02CD7 /* Pods-Mineral Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Mineral Demo/Info.plist";
@@ -435,6 +585,7 @@
 		};
 		7291CCC41E9FD3B10033BAEC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B5125430F2EE97448431529 /* Pods-Mineral Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Mineral Demo/Info.plist";
