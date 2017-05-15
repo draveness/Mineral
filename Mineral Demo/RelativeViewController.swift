@@ -19,13 +19,13 @@ class RelativeViewController: UIViewController {
 
         Builder<Node>.build.color(UIColor.white).size(50)
             .attachTo(constraint)
-            .left(constraint.rlt.left)
-            .top(constraint.rlt.top, offset: 20)
+            .left(constraint)
+            .top(constraint, offset: 20)
 
         Builder<Node>.build.color(UIColor.red).size(50)
             .attachTo(constraint)
-            .left(constraint.rlt.left)
-            .bottom(constraint.rlt.bottom, offset: -20)
+            .left(constraint)
+            .bottom(constraint, offset: -20)
 
         view.addSubview(constraint.view)
         constraint.view.snp.makeConstraints { (make) in

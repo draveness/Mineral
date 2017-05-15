@@ -80,4 +80,35 @@ public extension Relation where Container == RelativeContainer {
         }
         return self
     }
+
+    @discardableResult
+    public func left(_ other: Node, offset: ConstraintOffsetTarget = 0) -> Relation {
+        return left(other.rlt.left, offset: offset)
+    }
+
+    @discardableResult
+    public func right(_ other: Node, offset: ConstraintOffsetTarget = 0) -> Relation {
+        return right(other.rlt.right, offset: offset)
+    }
+
+    @discardableResult
+    public func top(_ other: Node, offset: ConstraintOffsetTarget = 0) -> Relation {
+        return top(other.rlt.top, offset: offset)
+    }
+
+    @discardableResult
+    public func bottom(_ other: Node, offset: ConstraintOffsetTarget = 0) -> Relation {
+        return bottom(other.rlt.bottom, offset: offset)
+    }
+
+    @discardableResult
+    public func centerX(_ other: Node, offset: ConstraintOffsetTarget = 0) -> Relation {
+        return centerX(other.rlt.centerX, offset: offset)
+    }
+
+    @discardableResult
+    public func centerY(_ other: Node, offset: ConstraintOffsetTarget = 0) -> Relation {
+        return left(other.rlt.centerY, offset: offset)
+    }
+
 }
