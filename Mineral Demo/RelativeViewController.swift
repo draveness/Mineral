@@ -17,15 +17,15 @@ class RelativeViewController: UIViewController {
 
         let constraint = Builder<RelativeContainer>.build.color(UIColor.lightGray).size(self.view.frame.size)
 
-        Builder<Node>.build.color(UIColor.white).size(50)
+        let node = Builder<Node>.build.color(UIColor.white).size(50)
             .attachTo(constraint)
             .left(constraint)
-            .top(constraint, offset: 20)
+            .top(constraint, offset: 20).node
 
         Builder<Node>.build.color(UIColor.red).size(50)
             .attachTo(constraint)
-            .left(constraint)
-            .bottom(constraint, offset: -20)
+            .left(node.rlt.right)
+            .centerY(node)
 
         view.addSubview(constraint.view)
         constraint.view.snp.makeConstraints { (make) in

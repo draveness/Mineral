@@ -108,7 +108,7 @@ public extension Relation where Container == RelativeContainer {
 
     @discardableResult
     public func centerY(_ other: Node, offset: ConstraintOffsetTarget = 0) -> Relation {
-        return left(other.rlt.centerY, offset: offset)
+        return centerY(other.rlt.centerY, offset: offset)
     }
 
 }
