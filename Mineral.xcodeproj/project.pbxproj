@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7200E6931ECD956900311FA3 /* FlexContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7200E6921ECD956900311FA3 /* FlexContainer.swift */; };
+		7200E6951ECD97BF00311FA3 /* FlexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7200E6941ECD97BF00311FA3 /* FlexViewController.swift */; };
 		7291CC9F1E9FB7AC0033BAEC /* Mineral.h in Headers */ = {isa = PBXBuildFile; fileRef = 7291CC9D1E9FB7AC0033BAEC /* Mineral.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7291CCA61E9FB7B30033BAEC /* Mineral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7291CCA51E9FB7B30033BAEC /* Mineral.swift */; };
 		7291CCAA1E9FB8560033BAEC /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7291CCA91E9FB8560033BAEC /* Node.swift */; };
@@ -42,6 +44,8 @@
 		031F41C41229F1919EEA8DA1 /* Pods-Mineral.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mineral.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mineral/Pods-Mineral.debug.xcconfig"; sourceTree = "<group>"; };
 		196EC15A292F0845DADD0881 /* Pods_Mineral_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mineral_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B5125430F2EE97448431529 /* Pods-Mineral Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mineral Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mineral Demo/Pods-Mineral Demo.release.xcconfig"; sourceTree = "<group>"; };
+		7200E6921ECD956900311FA3 /* FlexContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexContainer.swift; sourceTree = "<group>"; };
+		7200E6941ECD97BF00311FA3 /* FlexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexViewController.swift; sourceTree = "<group>"; };
 		7291CC9A1E9FB7AC0033BAEC /* Mineral.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mineral.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7291CC9D1E9FB7AC0033BAEC /* Mineral.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mineral.h; sourceTree = "<group>"; };
 		7291CC9E1E9FB7AC0033BAEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -130,6 +134,7 @@
 				7291CCB71E9FD3B10033BAEC /* ViewController.swift */,
 				72F480F61EC406AF009A7EAA /* AbsoluteViewController.swift */,
 				72F480F41EC406A7009A7EAA /* RelativeViewController.swift */,
+				7200E6941ECD97BF00311FA3 /* FlexViewController.swift */,
 				7291CCB91E9FD3B10033BAEC /* Main.storyboard */,
 				7291CCBC1E9FD3B10033BAEC /* Assets.xcassets */,
 				7291CCBE1E9FD3B10033BAEC /* LaunchScreen.storyboard */,
@@ -143,6 +148,7 @@
 			children = (
 				7291CCAB1E9FB8870033BAEC /* AbsoluteContainer.swift */,
 				72F480EE1EC4016E009A7EAA /* RelativeContainer.swift */,
+				7200E6921ECD956900311FA3 /* FlexContainer.swift */,
 				7291CCAD1E9FBCD90033BAEC /* Container.swift */,
 				72F480F01EC401B0009A7EAA /* Relation.swift */,
 			);
@@ -379,6 +385,7 @@
 				72F480F11EC401B0009A7EAA /* Relation.swift in Sources */,
 				72F480EF1EC4016E009A7EAA /* RelativeContainer.swift in Sources */,
 				7291CCAE1E9FBCD90033BAEC /* Container.swift in Sources */,
+				7200E6931ECD956900311FA3 /* FlexContainer.swift in Sources */,
 				7291CCAC1E9FB8870033BAEC /* AbsoluteContainer.swift in Sources */,
 				7291CCCA1EA064320033BAEC /* Buildable.swift in Sources */,
 				72FF89461EBC6CBA00022B33 /* UIView+Measure.swift in Sources */,
@@ -394,6 +401,7 @@
 				72F480F51EC406A7009A7EAA /* RelativeViewController.swift in Sources */,
 				72F480F71EC406AF009A7EAA /* AbsoluteViewController.swift in Sources */,
 				7291CCB81E9FD3B10033BAEC /* ViewController.swift in Sources */,
+				7200E6951ECD97BF00311FA3 /* FlexViewController.swift in Sources */,
 				7291CCB61E9FD3B10033BAEC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

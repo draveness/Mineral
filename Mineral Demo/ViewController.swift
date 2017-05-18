@@ -15,7 +15,7 @@ class ViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 2
+        return 3
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -23,8 +23,10 @@ class ViewController: UITableViewController {
         switch indexPath.row {
         case 0:
             cell.textLabel?.text = "Absolute"
-        default:
+        case 1:
             cell.textLabel?.text = "Relative"
+        default:
+            cell.textLabel?.text = "Flex"
         }
         return cell
     }
@@ -34,8 +36,10 @@ class ViewController: UITableViewController {
         switch index {
         case 0:
             self.navigationController?.pushViewController(AbsoluteViewController(), animated: true)
-        default:
+        case 1:
             self.navigationController?.pushViewController(RelativeViewController(), animated: true)
+        default:
+            self.navigationController?.pushViewController(FlexViewController(), animated: true)
         }
     }
 }

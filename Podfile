@@ -9,6 +9,7 @@ target 'Mineral' do
 
   pod 'SnapKit', :git => 'git@github.com:Draveness/SnapKit.git'
   pod 'RbSwift'
+  pod 'YogaKit'
 end
 
 target 'Mineral Demo' do

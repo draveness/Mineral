@@ -1,10 +1,14 @@
 PODS:
   - RbSwift (0.4.0)
   - SnapKit (3.2.0)
+  - Yoga (1.3.0)
+  - YogaKit (1.3.0):
+    - Yoga (~> 1.3)
 
 DEPENDENCIES:
   - RbSwift
   - SnapKit (from `git@github.com:Draveness/SnapKit.git`)
+  - YogaKit
 
 EXTERNAL SOURCES:
   SnapKit:
@@ -18,7 +22,9 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   RbSwift: 3581b748954330aed97863c0aa04ab17fa0d4b6d
   SnapKit: c71c530b73cedd2a8b998098687001baff265086
+  Yoga: 2ed1d7accfef3610a67f58c0cf101a0662137f2c
+  YogaKit: cddeccc6a8d2aff563e4c738d3bddb290a6de4cb
 
-PODFILE CHECKSUM: 45830483212f44df7d662aeef05a492eee402a82
+PODFILE CHECKSUM: d8cddd4ef720196c1354b12fe78a8e9baeaf621f
 
 COCOAPODS: 1.2.1
