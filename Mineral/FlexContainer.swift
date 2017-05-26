@@ -41,7 +41,6 @@ public extension Relation where Container == FlexContainer {
         return self
     }
 
-
     @discardableResult
     public func isEnabled(_ isEnabled: Bool) -> Relation {
         node.view.configureLayout { (layout) in
@@ -49,7 +48,6 @@ public extension Relation where Container == FlexContainer {
         }
         return self
     }
-
 
     @discardableResult
     public func direction(_ direction: YGDirection) -> Relation {
@@ -59,7 +57,6 @@ public extension Relation where Container == FlexContainer {
         return self
     }
 
-
     @discardableResult
     public func flexDirection(_ flexDirection: YGFlexDirection) -> Relation {
         node.view.configureLayout { (layout) in
@@ -67,7 +64,6 @@ public extension Relation where Container == FlexContainer {
         }
         return self
     }
-
 
     @discardableResult
     public func justifyContent(_ justifyContent: YGJustify) -> Relation {
@@ -77,7 +73,6 @@ public extension Relation where Container == FlexContainer {
         return self
     }
 
-
     @discardableResult
     public func alignContent(_ alignContent: YGAlign) -> Relation {
         node.view.configureLayout { (layout) in
@@ -85,7 +80,6 @@ public extension Relation where Container == FlexContainer {
         }
         return self
     }
-
 
     @discardableResult
     public func alignItems(_ alignItems: YGAlign) -> Relation {
@@ -95,7 +89,6 @@ public extension Relation where Container == FlexContainer {
         return self
     }
 
-
     @discardableResult
     public func alignSelf(_ alignSelf: YGAlign) -> Relation {
         node.view.configureLayout { (layout) in
@@ -103,7 +96,6 @@ public extension Relation where Container == FlexContainer {
         }
         return self
     }
-
 
     @discardableResult
     public func position(_ position: YGPositionType) -> Relation {
@@ -113,7 +105,6 @@ public extension Relation where Container == FlexContainer {
         return self
     }
 
-
     @discardableResult
     public func flexWrap(_ flexWrap: YGWrap) -> Relation {
         node.view.configureLayout { (layout) in
@@ -121,7 +112,6 @@ public extension Relation where Container == FlexContainer {
         }
         return self
     }
-
 
     @discardableResult
     public func overflow(_ overflow: YGOverflow) -> Relation {
@@ -131,7 +121,6 @@ public extension Relation where Container == FlexContainer {
         return self
     }
 
-
     @discardableResult
     public func display(_ display: YGDisplay) -> Relation {
         node.view.configureLayout { (layout) in
@@ -139,7 +128,6 @@ public extension Relation where Container == FlexContainer {
         }
         return self
     }
-
 
     @discardableResult
     public func flexGrow(_ flexGrow: CGFloat) -> Relation {
@@ -149,7 +137,6 @@ public extension Relation where Container == FlexContainer {
         return self
     }
 
-
     @discardableResult
     public func flexShrink(_ flexShrink: CGFloat) -> Relation {
         node.view.configureLayout { (layout) in
@@ -157,7 +144,6 @@ public extension Relation where Container == FlexContainer {
         }
         return self
     }
-
 
     @discardableResult
     public func flexBasis(_ flexBasis: CGFloat) -> Relation {
@@ -167,7 +153,6 @@ public extension Relation where Container == FlexContainer {
         return self
     }
 
-
     @discardableResult
     public func left(_ left: CGFloat) -> Relation {
         node.view.configureLayout { (layout) in
@@ -175,7 +160,6 @@ public extension Relation where Container == FlexContainer {
         }
         return self
     }
-
 
     @discardableResult
     public func top(_ top: CGFloat) -> Relation {
@@ -185,7 +169,6 @@ public extension Relation where Container == FlexContainer {
         return self
     }
 
-
     @discardableResult
     public func right(_ right: CGFloat) -> Relation {
         node.view.configureLayout { (layout) in
@@ -193,7 +176,6 @@ public extension Relation where Container == FlexContainer {
         }
         return self
     }
-
 
     @discardableResult
     public func bottom(_ bottom: CGFloat) -> Relation {
@@ -203,7 +185,6 @@ public extension Relation where Container == FlexContainer {
         return self
     }
 
-
     @discardableResult
     public func start(_ start: CGFloat) -> Relation {
         node.view.configureLayout { (layout) in
@@ -211,7 +192,6 @@ public extension Relation where Container == FlexContainer {
         }
         return self
     }
-
 
     @discardableResult
     public func end(_ end: CGFloat) -> Relation {
@@ -221,7 +201,6 @@ public extension Relation where Container == FlexContainer {
         return self
     }
 
-
     @discardableResult
     public func marginLeft(_ marginLeft: CGFloat) -> Relation {
         node.view.configureLayout { (layout) in
@@ -229,7 +208,6 @@ public extension Relation where Container == FlexContainer {
         }
         return self
     }
-
 
     @discardableResult
     public func marginTop(_ marginTop: CGFloat) -> Relation {
@@ -239,7 +217,6 @@ public extension Relation where Container == FlexContainer {
         return self
     }
 
-
     @discardableResult
     public func marginRight(_ marginRight: CGFloat) -> Relation {
         node.view.configureLayout { (layout) in
@@ -247,7 +224,6 @@ public extension Relation where Container == FlexContainer {
         }
         return self
     }
-
 
     @discardableResult
     public func marginBottom(_ marginBottom: CGFloat) -> Relation {
@@ -257,7 +233,6 @@ public extension Relation where Container == FlexContainer {
         return self
     }
 
-
     @discardableResult
     public func marginStart(_ marginStart: CGFloat) -> Relation {
         node.view.configureLayout { (layout) in
@@ -265,7 +240,6 @@ public extension Relation where Container == FlexContainer {
         }
         return self
     }
-
 
     @discardableResult
     public func marginEnd(_ marginEnd: CGFloat) -> Relation {
@@ -275,7 +249,6 @@ public extension Relation where Container == FlexContainer {
         return self
     }
 
-
     @discardableResult
     public func marginHorizontal(_ marginHorizontal: CGFloat) -> Relation {
         node.view.configureLayout { (layout) in
@@ -283,7 +256,6 @@ public extension Relation where Container == FlexContainer {
         }
         return self
     }
-
 
     @discardableResult
     public func marginVertical(_ marginVertical: CGFloat) -> Relation {
@@ -293,7 +265,6 @@ public extension Relation where Container == FlexContainer {
         return self
     }
 
-
     @discardableResult
     public func margin(_ margin: CGFloat) -> Relation {
         node.view.configureLayout { (layout) in
@@ -301,7 +272,6 @@ public extension Relation where Container == FlexContainer {
         }
         return self
     }
-
 
     @discardableResult
     public func paddingLeft(_ paddingLeft: CGFloat) -> Relation {
@@ -311,7 +281,6 @@ public extension Relation where Container == FlexContainer {
         return self
     }
 
-
     @discardableResult
     public func paddingTop(_ paddingTop: CGFloat) -> Relation {
         node.view.configureLayout { (layout) in
@@ -319,7 +288,6 @@ public extension Relation where Container == FlexContainer {
         }
         return self
     }
-
 
     @discardableResult
     public func paddingRight(_ paddingRight: CGFloat) -> Relation {
@@ -329,7 +297,6 @@ public extension Relation where Container == FlexContainer {
         return self
     }
 
-
     @discardableResult
     public func paddingBottom(_ paddingBottom: CGFloat) -> Relation {
         node.view.configureLayout { (layout) in
@@ -337,7 +304,6 @@ public extension Relation where Container == FlexContainer {
         }
         return self
     }
-
 
     @discardableResult
     public func paddingStart(_ paddingStart: CGFloat) -> Relation {
@@ -347,7 +313,6 @@ public extension Relation where Container == FlexContainer {
         return self
     }
 
-
     @discardableResult
     public func paddingEnd(_ paddingEnd: CGFloat) -> Relation {
         node.view.configureLayout { (layout) in
@@ -355,7 +320,6 @@ public extension Relation where Container == FlexContainer {
         }
         return self
     }
-
 
     @discardableResult
     public func paddingHorizontal(_ paddingHorizontal: CGFloat) -> Relation {
@@ -365,7 +329,6 @@ public extension Relation where Container == FlexContainer {
         return self
     }
 
-
     @discardableResult
     public func paddingVertical(_ paddingVertical: CGFloat) -> Relation {
         node.view.configureLayout { (layout) in
@@ -373,7 +336,6 @@ public extension Relation where Container == FlexContainer {
         }
         return self
     }
-
 
     @discardableResult
     public func padding(_ padding: CGFloat) -> Relation {
@@ -383,7 +345,6 @@ public extension Relation where Container == FlexContainer {
         return self
     }
 
-
     @discardableResult
     public func borderLeftWidth(_ borderLeftWidth: CGFloat) -> Relation {
         node.view.configureLayout { (layout) in
@@ -391,7 +352,6 @@ public extension Relation where Container == FlexContainer {
         }
         return self
     }
-
 
     @discardableResult
     public func borderTopWidth(_ borderTopWidth: CGFloat) -> Relation {
@@ -401,7 +361,6 @@ public extension Relation where Container == FlexContainer {
         return self
     }
 
-
     @discardableResult
     public func borderRightWidth(_ borderRightWidth: CGFloat) -> Relation {
         node.view.configureLayout { (layout) in
@@ -409,7 +368,6 @@ public extension Relation where Container == FlexContainer {
         }
         return self
     }
-
 
     @discardableResult
     public func borderBottomWidth(_ borderBottomWidth: CGFloat) -> Relation {
@@ -419,7 +377,6 @@ public extension Relation where Container == FlexContainer {
         return self
     }
 
-
     @discardableResult
     public func borderStartWidth(_ borderStartWidth: CGFloat) -> Relation {
         node.view.configureLayout { (layout) in
@@ -427,7 +384,6 @@ public extension Relation where Container == FlexContainer {
         }
         return self
     }
-
 
     @discardableResult
     public func borderEndWidth(_ borderEndWidth: CGFloat) -> Relation {
@@ -437,7 +393,6 @@ public extension Relation where Container == FlexContainer {
         return self
     }
 
-
     @discardableResult
     public func borderWidth(_ borderWidth: CGFloat) -> Relation {
         node.view.configureLayout { (layout) in
@@ -445,7 +400,6 @@ public extension Relation where Container == FlexContainer {
         }
         return self
     }
-
 
     @discardableResult
     public func width(_ width: CGFloat) -> Relation {
@@ -455,7 +409,6 @@ public extension Relation where Container == FlexContainer {
         return self
     }
 
-
     @discardableResult
     public func height(_ height: CGFloat) -> Relation {
         node.view.configureLayout { (layout) in
@@ -463,7 +416,6 @@ public extension Relation where Container == FlexContainer {
         }
         return self
     }
-
 
     @discardableResult
     public func minWidth(_ minWidth: CGFloat) -> Relation {
@@ -473,7 +425,6 @@ public extension Relation where Container == FlexContainer {
         return self
     }
 
-
     @discardableResult
     public func minHeight(_ minHeight: CGFloat) -> Relation {
         node.view.configureLayout { (layout) in
@@ -482,7 +433,6 @@ public extension Relation where Container == FlexContainer {
         return self
     }
 
-
     @discardableResult
     public func maxWidth(_ maxWidth: CGFloat) -> Relation {
         node.view.configureLayout { (layout) in
@@ -490,8 +440,7 @@ public extension Relation where Container == FlexContainer {
         }
         return self
     }
-    
-    
+
     @discardableResult
     public func maxHeight(_ maxHeight: CGFloat) -> Relation {
         node.view.configureLayout { (layout) in
