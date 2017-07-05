@@ -4,7 +4,21 @@ A library used to separate concerns from the original UIKit framework.
 
 ## Node
 
+```swift
+Builder<Node>.build.color(UIColor.white).size(50)
+            .attachTo(frame).origin(10)
+```
+
 ## Container
+
+An abstract protocol
+
+```swift
+public protocol Container {
+    associatedtype RelationType
+    func build(closure: () -> Node) -> Relation<RelationType>
+}
+```
 
 ### AbsoluteContainer
 
@@ -32,7 +46,7 @@ Builder<Node>.build.color(UIColor.red).size(50)
     .centerY(node)
 ```
 
-### FlexboxContainer
+### FlexContainer
 
 ```swift
 let flexbox = Builder<FlexContainer>.build.color(UIColor.lightGray).size(self.view.frame.size) { container in
@@ -45,3 +59,5 @@ let flexbox = Builder<FlexContainer>.build.color(UIColor.lightGray).size(self.vi
 
 view.addSubview(flexbox.view)
 ```
+
+
