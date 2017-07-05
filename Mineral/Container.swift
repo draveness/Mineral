@@ -11,8 +11,6 @@ import Foundation
 public protocol Container {
     associatedtype RelationType
     func build(closure: () -> Node) -> Relation<RelationType>
-
-    
 }
 
 extension Container where Self: Node {

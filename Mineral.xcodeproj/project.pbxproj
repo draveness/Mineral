@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7200E6931ECD956900311FA3 /* FlexContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7200E6921ECD956900311FA3 /* FlexContainer.swift */; };
 		7200E6951ECD97BF00311FA3 /* FlexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7200E6941ECD97BF00311FA3 /* FlexViewController.swift */; };
+		720857D51ED8307C008AAD38 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720857D41ED8307C008AAD38 /* Button.swift */; };
 		7291CC9F1E9FB7AC0033BAEC /* Mineral.h in Headers */ = {isa = PBXBuildFile; fileRef = 7291CC9D1E9FB7AC0033BAEC /* Mineral.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7291CCA61E9FB7B30033BAEC /* Mineral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7291CCA51E9FB7B30033BAEC /* Mineral.swift */; };
 		7291CCAA1E9FB8560033BAEC /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7291CCA91E9FB8560033BAEC /* Node.swift */; };
@@ -46,6 +47,7 @@
 		1B5125430F2EE97448431529 /* Pods-Mineral Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mineral Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mineral Demo/Pods-Mineral Demo.release.xcconfig"; sourceTree = "<group>"; };
 		7200E6921ECD956900311FA3 /* FlexContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexContainer.swift; sourceTree = "<group>"; };
 		7200E6941ECD97BF00311FA3 /* FlexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexViewController.swift; sourceTree = "<group>"; };
+		720857D41ED8307C008AAD38 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		7291CC9A1E9FB7AC0033BAEC /* Mineral.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mineral.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7291CC9D1E9FB7AC0033BAEC /* Mineral.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mineral.h; sourceTree = "<group>"; };
 		7291CC9E1E9FB7AC0033BAEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				7291CC9E1E9FB7AC0033BAEC /* Info.plist */,
 				7291CCA51E9FB7B30033BAEC /* Mineral.swift */,
 				7291CCA91E9FB8560033BAEC /* Node.swift */,
+				720857D41ED8307C008AAD38 /* Button.swift */,
 				7291CCC71EA063DD0033BAEC /* Builder.swift */,
 				7291CCC91EA064320033BAEC /* Buildable.swift */,
 			);
@@ -391,6 +394,7 @@
 				72FF89461EBC6CBA00022B33 /* UIView+Measure.swift in Sources */,
 				7291CCAA1E9FB8560033BAEC /* Node.swift in Sources */,
 				7291CCC81EA063DD0033BAEC /* Builder.swift in Sources */,
+				720857D51ED8307C008AAD38 /* Button.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

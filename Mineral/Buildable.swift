@@ -10,6 +10,7 @@ import Foundation
 
 public protocol Buildable {
     associatedtype Element
+
     init()
     func bind<VM>(viewModel: VM) -> Element
 }

@@ -9,14 +9,13 @@
 import Foundation
 
 public class Node: Buildable {
-//    public typealias Element = Node
-
     public required init() {}
+    
     public func bind<VM>(viewModel: VM) -> Node {
         return self
     }
     
-    public let view: UIView = UIView()
+    public internal(set) var view: UIView = UIView()
     public let parent: Node? = nil
     
     @discardableResult
