@@ -15,7 +15,8 @@ public class Node: Buildable {
         view.size = size
         return self
     }    
-}```
+}
+```
 
 ## Container
 
