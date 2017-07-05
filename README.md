@@ -5,9 +5,15 @@ A library used to separate concerns from the original UIKit framework.
 ## Node
 
 ```swift
-Builder<Node>.build.color(UIColor.white).size(50)
-            .attachTo(frame).origin(10)
-```
+public class Node: Buildable {
+    public internal(set) var view: UIView = UIView()
+    
+    @discardableResult 
+    public func size(_ size: CGSize) -> Element {
+        view.size = size
+        return self
+    }    
+}```
 
 ## Container
 
